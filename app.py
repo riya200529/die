@@ -7,7 +7,7 @@ import uvicorn
 app = FastAPI()
 
 # Load trained model
-model = pickle.load(open("house_model.pkl", "rb"))
+model = pickle.load(open("disease_model.pkl", "rb"))
 
 # Home Route
 @app.get("/")
